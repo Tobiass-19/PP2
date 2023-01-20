@@ -21,7 +21,7 @@ body{
 }
 
 .header{
-    height: 100vh;
+    height: 115vh;
     /* 02 */
     background-image: linear-gradient(to top, hsla(317, 88%, 87%, 0.486) 0%, hsla(218, 68%, 79%, 0.514) 100%), url(../img/woman.jpg);
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@ body{
 }
 
 .contenedor-servicio img{
-    width: 40%;
+    min-width: 10%;
 }
 
 .checklist-servicio{
@@ -148,4 +148,48 @@ body{
     height: 30px;
     color: #fff;
     font-weight: 700;
+}
+
+
+@media screen and (max-width: 500px){
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .img-galeria{
+        width: 95%;
+    }
+    
+    .agregar-imagen{
+        width: 90%;
+    }
+
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    
 }
