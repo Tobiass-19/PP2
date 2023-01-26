@@ -49,8 +49,8 @@ body{
 
 .hamburguer{
     position: fixed;
-    top: 30px;
-    right: 30px;
+    top: 20px;
+    right: 20px;
     background: #fbc2eb7c;
     width: 55px;
     height: 50px;
@@ -58,6 +58,7 @@ body{
     padding-bottom: 5px;
     border-radius: 10px;
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    z-index: 50;
 }
 
 .menu-navegacion{
@@ -148,6 +149,67 @@ body{
     height: 30px;
     color: #fff;
     font-weight: 700;
+}
+
+/* Gallery */
+
+
+.gallery{
+    background: #e1e1f1;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.imagen-light{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.534);
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+    z-index: 150;
+}
+
+.agregar-imagen{
+    width: 50%;
+    transform: scale(0);
+    border-radius: 10px;
+    transition: transform .3s .2s;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.show{
+    transform: translate(0);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+    z-index: 1000;
 }
 
 
