@@ -89,8 +89,12 @@ body{
 .menu-navegacion a{
     color: #fff;
     text-decoration: none;
+    border-bottom: 3px solid transparent;
 }
 
+.menu-navegacion a:hover{
+    border-color: #fff;
+}
 
 
 .titulo{
@@ -121,7 +125,7 @@ body{
 }
 
 .contenedor-servicio img{
-    min-width: 10%;
+    width: 40%;
 }
 
 .checklist-servicio{
