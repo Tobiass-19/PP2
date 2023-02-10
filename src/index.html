@@ -6,7 +6,10 @@
     <title>Página web</title>
     <link rel="stylesheet" href="./css/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     
@@ -19,7 +22,7 @@
                 <a href="#footer">Contacto</a>
         </nav>
         <div class="contenedor head">
-            <h1 class="titulo">Morena Leclercq</h1>
+            <h1 class="animate_animated animate__bounce  titulo">Morena Leclercq</h1>
             <p class="copy">Diseñadora Gráfica y Artista</p>
         </div>
         
@@ -52,11 +55,11 @@
                 <h2 class="subtitulo">Galeria</h2>
                 <div class="contenedor-galeria">
                     <img src="img/uno.jpg" class="img-galeria" alt="Hola">
-                    <img src="img/dos.jpg" class="img-galeria" alt="">
-                    <img src="img/tres.jpg" class="img-galeria" alt="">
-                    <img src="img/cuatro.jpg" class="img-galeria" alt="">
-                    <img src="img/cinco.jpg" class="img-galeria" alt="">
-                    <img src="img/seis.jpg" class="img-galeria" alt="">
+                    <img src="img/dos.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/tres.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/cuatro.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/cinco.jpg" class="img-galeria" alt="Hola">
+                    <img src="img/seis.jpg" class="img-galeria" alt="Hola">
                 </div>
             </div>
         </section>
@@ -64,8 +67,56 @@
             <img src="img/close.svg" alt="" class="close">
             <img src="" alt="" class="agregar-imagen">
         </div>
-        
+        <section class="information">
+            <div class="information-container contenedor">
+                <img src="img/segundaIlustracion.svg" alt="" class="information-img">
+                <div class="information-content">
+                    <p>Contácteme por alguno de mis servicios!</p>
+                    <button class="contact-button">¡Haga Click Aquí!</button>
+                </div>
+            </div>
+        </section>
+        <section class="email-contact">
+            <div class="contact-container">
+                <form action="">
+                    <input type="text" placeholder="Nombre" class="input grid-items">
+                    <input type="email" placeholder="E-mail" class="input grid-items">
+                    <textarea placeholder="Mensaje" class="input textarea grid-items"></textarea>
+                    <input type="button" value="ENVIAR" class="submit grid-items">
+                </form>
+                <div class="card">
+                    <div class="card-img card-items">
+                        <img src="img/mail.svg" alt="">
+                    </div>
+                    <div class="card-content">
+                        <p class="card-items">Contáctame para conocer mis servicios o adquirir uno ya!!</p>
+                        <p class="card-items">Te contestaré </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="contenedor footer-content">
+                    <div class="contact-us">
+                        <h2 class="brand">Leclercq's Design</h2>
+                        <p>Crea experiencias, revive tus sueños</p>
+                    </div>
+                    <div class="social-media">
+                        <a href="./img/bxl-facebook.svg" class="social-media-icon">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="./img/bxl-twitter.svg" class="social-media-icon">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                        <a href="./img/bxl-instagram.svg" class="social-media-icon">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </div>
+            </div>
+            <div class="line"></div>
+        </footer>
         <script src="js/menu.js"></script>
         <script src="js/lightbox.js"></script>    
+        <script src="js/form.js"></script>
 </body>
 </html>
