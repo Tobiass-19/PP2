@@ -1,6 +1,6 @@
 const button = document.querySelector(".contact-button");
 const form = document.querySelector(".contact-container");
-const emailContact = document.querySelector("emai-contact");
+const emailContact = document.querySelector("email-contact");
 
 
 // window.addEventListener("scroll", () => {
