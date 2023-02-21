@@ -262,10 +262,10 @@ body {
 }
 
 .wrapper {
-  min-height: 100vh;
+  min-height: 110vh;
   display: flex;
   align-items: center;
-  background-image: url(../img/background.jpg);
+  background-image: linear-gradient(to top, rgba(132, 210, 246, 0.396) 0%,rgba(253, 255, 252, 0.384) 100%),url(../img/background.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -274,8 +274,8 @@ body {
 .inner {
   max-width: 758px;
   margin: auto;
-  background: #735d78;
-  border: 10px solid #fff8;
+  background: #f0efeb;
+  border: 10px solid #0003;
   padding: 77px 99px 87px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
@@ -284,9 +284,9 @@ body {
   -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-/* textarea {
+textarea {
     resize: none;
-  } */
+  }
 
 .h3 {
   text-transform: uppercase;
@@ -294,7 +294,7 @@ body {
   font-family: "Montserrat-Bold";
   text-align: center;
   margin-bottom: 12px;
-  color: #fff;
+  color: #386fa4;
 }
 
 .paragraph {
@@ -302,7 +302,7 @@ body {
   padding: 0 10px;
   margin-bottom: 55px;
   line-height: 1.8;
-  color: #fff;
+  color: #386fa4;
 }
 
 .form-group {
@@ -310,12 +310,12 @@ body {
   display: block;
   margin-bottom: 48px;
   font-family: "Montserrat-Regular";
-  color: #fff;
+  color: #386fa4;
   font-size: 15px;
 }
 .form-group span {
   font-size: 15px;
-  color: #fff;
+  color: #386fa4;
   position: absolute;
   top: 11px;
   transition: all 0.2s ease;
@@ -331,12 +331,13 @@ body {
   top: 41px;
   transform: scaleX(0);
   transition: all 0.15s ease;
-  background: #fff;
+  background: #386fa4;
 }
 
 .form-control {
   border: none;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #386fa4;
+  color: #2d3142;
   display: block;
   width: 100%;
   height: 43px;
@@ -345,9 +346,9 @@ body {
   font-family: "Montserrat-SemiBold";
 }
 
-/* .form-control:focus,
+.form-control:focus,
   .form-control:valid {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #386fa4;
   }
   
   .form-control:focus + span,
@@ -357,7 +358,7 @@ body {
   .form-control:focus + span + .border,
   .form-control:valid + span + .border {
     transform: scaleX(1);
-  } */
+  }
 
 textarea.form-control {
   padding-top: 10px;
@@ -368,7 +369,7 @@ button {
   border: none;
   width: 162px;
   height: 51px;
-  border: 2px solid #fff;
+  border: 2px solid #386fa4;
   margin: auto;
   margin-top: 60px;
   cursor: pointer;
@@ -377,7 +378,7 @@ button {
   justify-content: center;
   padding: 0;
   background: none;
-  color: #fff;
+  color: #386fa4;
   text-transform: uppercase;
   font-family: "Montserrat-SemiBold";
   -webkit-transform: perspective(1px) translateZ(0);
@@ -388,7 +389,8 @@ button {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* button i {
+
+button i {
       margin-left: 10px;
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
@@ -406,7 +408,7 @@ button {
       left: 0;
       right: 0;
       bottom: 0;
-      background: #2098D1;
+      background: #59a5d8;
       -webkit-transform: scaleX(0);
       transform: scaleX(0);
       -webkit-transform-origin: 0 50%;
@@ -424,12 +426,12 @@ button {
         transform: scaleX(1); }
       button:hover i {
         -webkit-transform: translateX(4px);
-        transform: translateX(4px); } */
+        transform: translateX(4px); }
 
 /* FOOTER */
 
 footer {
-  background: #f2f2f2;
+  background: #3d5a80;
   padding-bottom: 0.1px;
 }
 
@@ -444,7 +446,7 @@ footer {
 
 .contact-us {
   width: 40%;
-  color: #667eea;
+  color: #fff;
 }
 
 .brand {
@@ -467,10 +469,10 @@ footer {
   margin-left: 20px;
   width: 60px;
   height: 60px;
-  border: 1px solid #667eea;
+  border: 1px solid #fff;
   border-radius: 50%;
   text-align: center;
-  color: #667eea;
+  color: #fff;
 }
 
 .social-media-icon i {
@@ -483,13 +485,13 @@ footer {
   max-width: 1200px;
   margin: auto;
   height: 2px;
-  background: #667eea;
+  background: #fff;
   margin-bottom: 60px;
 }
 
 .social-media-icon:hover {
-  background: #667eea;
-  color: #f2f2f2;
+  background: #fff;
+  color: #3d5a80;
 }
 
 
